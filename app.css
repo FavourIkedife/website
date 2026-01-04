@@ -113,32 +113,15 @@ header {
 }
 
 footer {
-    background-color: #863ae8; 
+    background-color: #853ae8; 
+    color: rgba(255, 255, 255, 0.815);
+    width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 18px 0;
 }
 
-footer ul {
-    list-style: none;
-    margin: 0 auto; 
-    width: 100%; 
-    max-width: 900px;
-    text-align: center; 
-    padding: 28px 0px; 
-}
-
-footer li {
-    display: inline; 
-    padding: 0 16px; 
-}
-
-footer li a {
-    text-decoration: none; 
-    color: white; 
-}
-
-
-footer li a:hover {
-    text-decoration: underline; 
-}
 
 .hero { 
     background-color:  #863ae8;
@@ -150,13 +133,22 @@ footer li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-
 }
+.essaylist {
+    height: 100vh; /*this will be 100% of your the user's view height" */
+    margin: 30px;
+}
+.essaylist h2 {
+    font-size: 70px;
+    width: 75%; 
+    padding: 60px 0 0 0; 
+    
+}
+
 .hero h1, .hero p {
     width: 75%; 
     max-width: 900px; 
     margin: 16px 0; 
-
 }
 
 .hero hr {
@@ -164,13 +156,26 @@ footer li a:hover {
     margin: 32px 0; 
 }
 
-.essaylist li {
-    padding: 30px;
+a {
     font-size: 20px;
+    text-decoration: none;
+    color: inherit;
 }
 
-.essaylist li a:hover {
+li {
+    list-style-type: none;
+    padding: 10px; 
+}
+
+.essaylist ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+li a:hover {
     text-decoration: underline;
+    color: #863ae8;
 }
 
 
